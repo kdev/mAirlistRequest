@@ -1,40 +1,48 @@
 body {
-    background: #485563;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    font-family: Arial, Helvetica, sans-serif; 
+    background: #485563; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #29323c,
+        #485563
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #29323c,
+        #485563
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-  h1 {
-    color: white; 
-    font-family: Arial, Helvetica, sans-serif;  
-   
-  }
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-  table {
+table {
     border-collapse: collapse;
     width: 100%;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  th, td {
+}
+
+th,
+td {
     padding: 8px;
     text-align: left;
-    border-bottom: 1px solid #ddd;    
-  }
+    border-bottom: 1px solid #ddd;
+}
 
-  tr {
-   width: 100%;
-   cursor: pointer;
-  }
-  
-  tr:hover {
-    background-color:#485563;
+tr {
+    width: 100%;
+    cursor: pointer;
+}
+
+tr:hover {
+    background-color: #485563;
     color: white;
-  }
+}
 
-  .button {
+.button {
     width: 100%;
     background-color: #485563;
     color: white;
@@ -43,10 +51,10 @@ body {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
+}
 
-
-  input[type=text], select {
+input[type='text'],
+select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -54,34 +62,34 @@ body {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-  }
- 
-  .button:hover {
-    background-color: #29323c;
-  }
+}
 
-  div {
+.button:hover {
+    background-color: #29323c;
+}
+
+div {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    width: 80%;    
+    width: 80%;
     margin: 0 auto;
     padding-top: 50;
-  }
+}
 
-  div:empty {
+div:empty {
     display: none;
- }
+}
 
-  label {
+label {
     cursor: default;
     border-radius: 5px;
     background-color: #485563;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
-  }
-  #menu {
+}
+#menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -89,31 +97,24 @@ body {
     background-color: #485563;
     position: fixed;
     top: 0;
-    width: 100%;      
-    
-  } 
-  
-  li {
+    width: 100%;
+}
+
+li {
     float: left;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-   
-  }
+}
 
-
-  
-  li:hover {
+li:hover {
     background-color: #111;
     cursor: pointer;
-    
-  }
+}
 
-  user.li:hover {
+user.li:hover {
     background-color: red;
     cursor: pointer;
-    
-  }
-
+}
